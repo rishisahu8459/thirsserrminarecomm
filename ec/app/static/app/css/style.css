@@ -1,0 +1,93 @@
+/* Use the gradient theme with your specified colors */
+body {
+    font-family: 'Georgia', serif;
+  }
+  
+  /* Navigation bar styling with gradient background */
+  .navbar {
+    background: linear-gradient(45deg, #C422AC, #198754);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #fff;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #fff;
+    margin: 0 15px; /* Wider spacing between links */
+    font-size: 18px;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #f8c166;
+  }
+  /* Button styling with gradient background */
+  .btn {
+    background: linear-gradient(45deg, #C422AC, #198754);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .btn:hover {
+    background: linear-gradient(45deg, #198754, #C422AC);
+  }
+  
+  /* Footer with gradient background */
+  footer {
+    background: linear-gradient(45deg, #C422AC, #198754);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  /* Customize the appearance of your product slider */
+  .owl-carousel .item {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+    transition: transform .5s ease;
+  }
+  
+  .owl-carousel .item:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Additional styling for specific sections or elements */
+  .buttermilk {
+    background: linear-gradient(45deg, #C422AC, #198754);
+    border: 1px solid #efe8e1;
+    padding: 50px 40px;
+    padding-bottom: 20px;
+  }
+  
+  .smbg {
+    background: linear-gradient(45deg, rgba(110, 69, 143, 0.1), #fff);
+  }
+  
+  .curdbgpro {
+    background: linear-gradient(45deg, rgba(10, 77, 123, 0.1), #fff);
+  }
+  
+  .goodnessseccont img {
+    width: 100%;
+  }
+  
+  .mlkpro {
+    color: #636362;
+    font-size: 22px;
+    line-height: 22px;
+    margin-bottom: 15px;
+    width: 43%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .goodnesssec a {
+    text-decoration: none;
+  }
